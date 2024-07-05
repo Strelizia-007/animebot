@@ -20,7 +20,7 @@ basicConfig(
 
 load_dotenv('config.env', override=True)
 
-UPSTREAM_REPO = getenv('UPSTREAM_REPO', "https://github.com/Strelizia-007/animebot")
+UPSTREAM_REPO = getenv('UPSTREAM_REPO', "https://github.com/Hsksv639/animebot")
 UPSTREAM_BRANCH = getenv('UPSTREAM_BRANCH', "main")
 
 if UPSTREAM_REPO is not None:
