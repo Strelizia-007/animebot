@@ -4,8 +4,6 @@ aiofiles
 anitopy
 apscheduler
 dnspython
-#libtorrent
-git+https://github.com/arvidn/libtorrent
 motor==3.3.2
 feedparser
 psutil
