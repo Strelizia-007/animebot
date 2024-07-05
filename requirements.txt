@@ -4,7 +4,7 @@ aiofiles
 anitopy
 apscheduler
 dnspython
-libtorrent==2.0.7
+libtorrent
 motor==3.3.2
 feedparser
 psutil
