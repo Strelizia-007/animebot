@@ -20,8 +20,8 @@ basicConfig(
 
 load_dotenv('config.env', override=True)
 
-UPSTREAM_REPO = getenv('UPSTREAM_REPO', "https://Salxchange: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@github.com/SalxChange/AutoAniAdvance")
-UPSTREAM_BRANCH = getenv('UPSTREAM_BRANCH', "Ongoing-Pirates")
+UPSTREAM_REPO = getenv('UPSTREAM_REPO', "https://github.com/Strelizia-007/animebot")
+UPSTREAM_BRANCH = getenv('UPSTREAM_BRANCH', "main")
 
 if UPSTREAM_REPO is not None:
     if opath.exists('.git'):
