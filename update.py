@@ -20,16 +20,16 @@ basicConfig(
 
 load_dotenv('config.env', override=True)
 
-UPSTREAM_REPO = getenv('UPSTREAM_REPO', "https://github.com/Hsksv639/animebot")
-UPSTREAM_BRANCH = getenv('UPSTREAM_BRANCH', "main")
+UPSTREAM_REPO = getenv('UPSTREAM_REPO', "https://Salxchange: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@github.com/SalxChange/AutoAniAdvance")
+UPSTREAM_BRANCH = getenv('UPSTREAM_BRANCH', "Ongoing-Pirates")
 
 if UPSTREAM_REPO is not None:
     if opath.exists('.git'):
         srun(["rm", "-rf", ".git"])
         
     update = srun([f"git init -q \
-                     && git config --global user.email iamstrelizia07@gmail.com \
-                     && git config --global user.name joelAin0944v \
+                     && git config --global user.email drxxstrange@gmail.com \
+                     && git config --global user.name SilentDemonSD \
                      && git add . \
                      && git commit -sm update -q \
                      && git remote add origin {UPSTREAM_REPO} \
