@@ -20,7 +20,7 @@ basicConfig(
 
 load_dotenv('config.env', override=True)
 
-UPSTREAM_REPO = getenv('UPSTREAM_REPO', "https://Salxchange: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@github.com/SalxChange/AutoAniAdvance")
+UPSTREAM_REPO = getenv('UPSTREAM_REPO', "https://Salxchange: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@github.com/SalxChange/AutoAniAdvance")
 UPSTREAM_BRANCH = getenv('UPSTREAM_BRANCH', "Ongoing-Pirates")
 
 if UPSTREAM_REPO is not None:
